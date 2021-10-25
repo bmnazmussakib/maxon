@@ -1,0 +1,256 @@
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+/* Colors */
+
+/* 
+Menu: #323541
+heading: #112e41
+button&subHeading: #ff7214
+paragraph: #888888
+counter&footer: #162b45
+copyright: #10233a
+ */
+
+/* Common */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Header start */
+
+header {
+    background-color: #f7f7f7;
+}
+
+.nav-menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Header end */
+
+/* Banner start */
+
+.banner {
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.banner-content {}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ff7214;
+}
+
+.banner-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #112e41;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #888888;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    background-color: #ff7214 !important;
+    border-radius: 30px !important;
+    padding: 15px 38px !important;
+    color: #f7f7f7 !important;
+}
+
+.vector {
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
+
+.vector img {
+    /* position: absolute; */
+}
+
+/* Banner end */
+
+/* Make Customer start */
+.customer-text{
+    width: 70%;
+}
+.customer-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #112e41;
+    margin-bottom: 50px;
+}
+.customer-text h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #112e41;
+    margin-bottom: 50px;
+}
+.customer-text{
+
+}
+/* Make Customer end */
+
+
+/* Advertise start */
+.single-card{
+    text-align: center ;
+    padding: 50px 20px;
+}
+
+.card-icon {
+    
+}
+.card-icon i{
+    font-size: 2rem;
+    padding: 20px 18px 24px 24px;
+    border-radius: 50%;
+}
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #112e41;
+}
+/* Advertise end */
+
+/* Recent start */
+.recent-single-item{
+    margin: 8% 0;
+}
+.recent-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #112e41;
+}
+.recent-text-container{
+    padding: 0 0 0 10%;
+}
+.learn-more{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #112e41;
+
+}
+.learn-more:hover{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff7214;
+    transition: all 0.5s;
+}
+/* Recent end */
+
+
+/* Counter start */
+.counter{
+    background-color: #112e41;
+    padding: 90px 0 50px 0 !important;
+    /* max-height: 100px; */
+}
+.counter-value{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f7f7f7;
+    padding: 0 !important;
+}
+.counter-name{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #f7f7f7;
+
+}
+/* Counter end */
+
+
+/* Carousel start */
+/* Carousel end */
+
+/* Team start */
+.member-card{
+    border: 5px solid #eeeeee !important;
+}
+.member-card-title{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #112e41;
+}
+.member-designation{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #888888;
+}
+.card-body ul{
+
+}
+.card-body ul li{
+    list-style: none;
+}
+.card-body ul li a{
+    text-decoration: none;
+    color: #888888;
+
+}
+.card-body ul li i{
+    font-size: 0.5rem;
+    color: #cecece;
+}
+/* Team end */
+
+/* Latest News start */
+.comments, .like{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #888888;
+}
+.comments:hover, .like:hover{
+    color: #ff7214;
+}
+.comments-icon, .like-icon{
+    color: #ff7214 !important;
+    font-size: 0.9rem;
+
+}
+/* Latest News end */
+
+
+/* Contact Us start */
+address {
+    color: #888888;
+}
+address a{
+    text-decoration: none;
+    color: #888888;
+}
+/* Contact Us end */
+
