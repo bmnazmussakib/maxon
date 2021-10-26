@@ -47,7 +47,7 @@ header {
 
 .subtitle {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #ff7214;
 }
@@ -61,9 +61,10 @@ header {
 
 .text {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #888888;
+    line-height: 1.5rem;
 }
 
 .button {
@@ -89,73 +90,99 @@ header {
 /* Banner end */
 
 /* Make Customer start */
-.customer-text{
-    width: 70%;
+
+.customer-text {
+    width: 75%;
 }
-.customer-title{
+
+.customer-title {
     font-family: 'Poppins', sans-serif;
     font-size: 2.7rem;
     font-weight: 700;
     color: #112e41;
     margin-bottom: 50px;
 }
-.customer-text h5{
+
+.customer-text h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
     color: #112e41;
     margin-bottom: 50px;
 }
-.customer-text{
 
+.customer-bg {
+    left: 25%;
+    top: 30px;
+    max-width: 545px;
+    transform: translateX(-50%);
+}
+.customer-img-1 {
+    margin-top: 80px !important;
+}
+.customer-img-2 {
+    margin-bottom: 60px !important;
+}
+.experience {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #112e41;
 }
 /* Make Customer end */
 
 
+
 /* Advertise start */
-.single-card{
-    text-align: center ;
+
+.single-card {
+    text-align: center;
     padding: 50px 20px;
 }
 
-.card-icon {
-    
-}
-.card-icon i{
+.card-icon {}
+
+.card-icon i {
     font-size: 2rem;
     padding: 20px 18px 24px 24px;
     border-radius: 50%;
 }
-.section-title{
+
+.section-title {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     color: #112e41;
 }
+
 /* Advertise end */
 
 /* Recent start */
-.recent-single-item{
+
+.recent-single-item {
     margin: 8% 0;
 }
-.recent-title{
+
+.recent-title {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     color: #112e41;
 }
-.recent-text-container{
+
+.recent-text-container {
     padding: 0 0 0 10%;
 }
-.learn-more{
+
+.learn-more {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     color: #112e41;
-
 }
-.learn-more:hover{
+
+.learn-more:hover {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -163,16 +190,18 @@ header {
     color: #ff7214;
     transition: all 0.5s;
 }
+
 /* Recent end */
 
-
 /* Counter start */
-.counter{
+
+.counter {
     background-color: #112e41;
     padding: 90px 0 50px 0 !important;
     /* max-height: 100px; */
 }
-.counter-value{
+
+.counter-value {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
@@ -180,77 +209,155 @@ header {
     color: #f7f7f7;
     padding: 0 !important;
 }
-.counter-name{
+
+.counter-name {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
     color: #f7f7f7;
-
 }
+
 /* Counter end */
 
+/* Testimonial start */
+.single-testimonial {
+    width: 75%;
+}
+.client-img{
+    /* width: 20%; */
+}
+.client-img img{
 
-/* Carousel start */
-/* Carousel end */
+}
+.testimonial-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #888888;
+    line-height: 2rem;
+}
+.client-company-img {
+    width: 20%;
+}
+.client-company-img img {
+    
+}
+/* Testimonial end */
 
 /* Team start */
-.member-card{
+
+.member-card {
     border: 5px solid #eeeeee !important;
 }
-.member-card-title{
+
+.member-card-title {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
     color: #112e41;
 }
-.member-designation{
+
+.member-designation {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     color: #888888;
 }
-.card-body ul{
 
-}
-.card-body ul li{
+.card-body ul {}
+
+.card-body ul li {
     list-style: none;
 }
-.card-body ul li a{
+
+.card-body ul li a {
     text-decoration: none;
     color: #888888;
-
 }
-.card-body ul li i{
+
+.card-body ul li i {
     font-size: 0.5rem;
     color: #cecece;
 }
+
 /* Team end */
 
 /* Latest News start */
-.comments, .like{
+
+.comments, .like {
     text-decoration: none;
     font-size: 0.9rem;
     color: #888888;
 }
-.comments:hover, .like:hover{
+
+.comments:hover, .like:hover {
     color: #ff7214;
 }
-.comments-icon, .like-icon{
+
+.comments-icon, .like-icon {
     color: #ff7214 !important;
     font-size: 0.9rem;
-
 }
+
 /* Latest News end */
 
-
 /* Contact Us start */
+
 address {
     color: #888888;
 }
-address a{
+
+address a {
     text-decoration: none;
     color: #888888;
 }
+
+address p {
+    
+}
+
 /* Contact Us end */
 
+/* Footer start */
+
+footer {
+    background-color: #112e41;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    margin-bottom: 3rem;
+}
+.footer-logo img{
+
+}
+
+
+.our-service {}
+
+.footer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #f7f7f7;
+    margin-bottom: 2.5rem;
+}
+.our-service ul {
+    padding-left: 0;
+}
+.our-service li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.our-service li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #888888;
+}
+.footer-contact i{
+    color: #f7f7f7;
+}
+/* Footer end */

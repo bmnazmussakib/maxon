@@ -19,6 +19,24 @@
     }
     /* Banner end */
 
+    /* Make customer start */
+    .customer-title{
+        font-size: 2.2rem;
+    }
+    .customer-img-1, .customer-img-2 {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .experience {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #112e41;
+    }
+    /* Make customer end */
+
+
     /* Advertise start */
     .single-card{
         width: 90%;
@@ -62,6 +80,26 @@
     }
     /* Recent end */
 
+
+    /* Partner start */
+    .partners .container .row{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .single-partner{
+        margin-bottom: 30px;
+    }
+    /* Partner end */
+
+    /* Testimonial start */
+    .testimonial-carousel{
+        margin-top: 40px;
+    }
+    .testimonial-text{
+        font-size: 1rem;
+    }
+    /* Testimonial end */
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -89,6 +127,17 @@
     /* Advertise start */
     
     /* Advertise end */
+
+
+    /* Partner start */
+    .partners .container .row{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .single-partner{
+        margin-bottom: 30px;
+    }
+    /* Partner end */
     
 }
 
@@ -106,6 +155,21 @@
     .banner-content a {}
     /* Banner end */
 
+    /* Make customer start */
+    .customer-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* Make customer end */
+
+
+    /* Customer start */
+    .customer-text{
+        margin-top: 40px;
+    }
+    /* Customer end */
+
+
     /* Recent start */
     .recent-single-item{
         
@@ -117,7 +181,24 @@
         font-size: 1.05rem;
     }
     /* Recent end */
+
+
+    /* Partner start */
+    .partners .container .row{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .single-partner{
+        margin-bottom: 50px;
+    }
+    /* Partner end */
     
+
+    /* Testimonial start */
+    .testimonial-text{
+        font-size: 1.1rem;
+    }
+    /* Testimonial end */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -133,6 +214,8 @@
         font-size: 1.2rem;
     }
     /* Recent end */
+
+    
     
 }
 
